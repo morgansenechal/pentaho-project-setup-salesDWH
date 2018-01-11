@@ -458,7 +458,7 @@
         <parameter>
           <name>P_PROJECT_NAME</name>
           <stream_name/>
-          <value>project1</value>
+          <value>salesDWH</value>
         </parameter>
       </parameters>
       <set_append_logfile>N</set_append_logfile>
@@ -556,7 +556,7 @@
         <parameter>
           <name>P_PROJECT_NAME</name>
           <stream_name/>
-          <value>project1</value>
+          <value>salesDWH</value>
         </parameter>
       </parameters>
       <set_append_logfile>N</set_append_logfile>
