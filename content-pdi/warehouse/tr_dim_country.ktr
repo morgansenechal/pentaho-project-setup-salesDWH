@@ -522,14 +522,14 @@
     </attributes>
   </connection>
   <connection>
-    <name>salesDWH</name>
-    <server>${salesDWH.HOST}</server>
+    <name>sales_dwh</name>
+    <server>${SALES_DWH.HOST}</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>${salesDWH.DB}</database>
-    <port>${salesDWH.PORT}</port>
-    <username>${salesDWH.USER}</username>
-    <password>${salesDWH.PASS}</password>
+    <database>${SALES_DWH.DB}</database>
+    <port>${SALES_DWH.PORT}</port>
+    <username>${SALES_DWH.USER}</username>
+    <password>${SALES_DWH.PASS}</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -548,7 +548,7 @@
       </attribute>
       <attribute>
         <code>PORT_NUMBER</code>
-        <attribute>${salesDWH.PORT}</attribute>
+        <attribute>${SALES_DWH.PORT}</attribute>
       </attribute>
       <attribute>
         <code>PRESERVE_RESERVED_WORD_CASE</code>
@@ -669,8 +669,8 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>salesDWH</connection>
-    <schema>${salesDWH.SCHEMA}</schema>
+    <connection>sales_dwh</connection>
+    <schema>${SALES_DWH.SCHEMA}</schema>
     <table>dim_country</table>
     <commit>1000</commit>
     <truncate>N</truncate>
